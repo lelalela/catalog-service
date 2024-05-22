@@ -1,0 +1,7 @@
+###홈
+GET {{home-api}}/
+Content-Type: application/json
+
+###actuator에서 설정 새로 받아오기
+POST {{home-api}}/actuator/refresh
+Content-Type: application/json
